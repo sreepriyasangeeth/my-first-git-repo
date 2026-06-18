@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .page1 {
+            height: 100vh;
+            background-color: cornflowerblue;
+        }
+
+        header {
+            height: 5%;
+            background-color: mediumvioletred;
+            color: yellow;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: yellow;
+        }
+
+        main {
+            height: 85%;
+            display: flex;
+        }
+
+        .left {
+            background-color: coral;
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .left h1 {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .right {
+
+            background-color: rgb(6, 98, 151);
+            height: 100%;
+            width: 50%;
+            justify-content: center;
+
+        }
+
+        .right .top {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(124, 42, 169);
+            height: 50%;
+        }
+
+        .right .bottom {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(26, 108, 26, 0.685);
+            height: 50%;
+
+
+        }
+
+        .card1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 15px;
+        }
+
+        .card {
+            height: 100px;
+            width: 100px;
+            border: 3px solid rgb(180, 42, 180);
+            background-color: rgb(180, 42, 180);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            justify-content: center;
+            border-radius: 10px;
+            color: white;
+        }
+
+        .bottom h1 {
+            color: white;
+
+        }
+
+        .top h1 {
+            color: white;
+
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 15px;
+        }
+
+        .box1 {
+            height: 100px;
+            width: 100px;
+            border: 3px solid rgb(78, 71, 84);
+            background-color: rgb(78, 71, 84);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            justify-content: center;
+            border-radius: 150px;
+            color: white;
+        }
+
+        .box2 {
+            height: 100px;
+            width: 100px;
+            border: 3px solid blue;
+            background-color: blue;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            justify-content: center;
+            border-radius: 150px;
+            color: white;
+        }
+
+        .box3 {
+            height: 100px;
+            width: 100px;
+            border: 3px solid greenyellow;
+            background-color: greenyellow;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            justify-content: center;
+            border-radius: 150px;
+            color: white;
+        }
+
+        footer {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            text-align: center;
+            gap: 10px;
+          
+        }
+
+        .col,.col1,.col2 {
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page1">
+        <header>
+            <h1>LOGO</h1>
+            <nav>
+                <a href="webpage.html">Home</a>
+                <a href="page.html">Gallery</a>
+                <a href="workout.html">About</a>
+                <a href="displayflex.html">Career</a>
+                <a href="task.html">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <div class="left">
+                <h1>Main child 1</h1>
+                <div class="card1">
+                    <div class="card">card1</div>
+                    <div class="card">card2</div>
+                    <div class="card">card3</div>
+                    <div class="card">card4</div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="top">
+                    <h1>Sub</h1>
+                </div>
+                <div class="bottom">
+                    <h1>Sub</h1>
+                    <div class="box">
+                        <div class="box1">Box</div>
+                        <div class="box2">Box</div>
+                        <div class="box3">Box</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </main>
+        <footer>
+            <div class="col">
+                <h1>LOGO</h1>
+                <p>logo@gmail.com</p>
+                <p>782372837628</p>
+            </div>
+            <div class="col1">
+                <h1>Address:</h1>
+                <p>Thiruvananthapuram,Kerala 694402</p>
+            </div>
+            <div class="col2">
+                <h1>Join with us.</h1>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

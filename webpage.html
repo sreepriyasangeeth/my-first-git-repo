@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            font-family: "Google Sans", sans-serif;
+        }
+
+        body {
+            background-color: aqua;
+        }
+
+        p i {
+            color: blueviolet;
+
+        }
+
+        .head {
+            color: blue;
+            font-size: 50px;
+            font-style: italic;
+            text-align: center;
+        }
+
+        ol {
+            color: brown;
+            font-size: x-large;
+        }
+
+        #head3 {
+            background-color: chocolate;
+            text-align: center;
+        }
+
+        .page1 {
+            background-color: bisque;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .left,
+        .right {
+            height: 240px;
+            width: 300px;
+            border: 3px solid white;
+            border-radius: 150px;
+            /* border-radius: 50%; */
+            text-align: center;
+
+        }
+
+        .right {
+            display: block;
+            background-color: aqua;
+            font-size: 18px;
+            padding: 30px;
+            margin: 30px;
+            height: auto;
+            width: auto;
+
+        }
+
+        .left {
+            display: inline-block;
+            background-color: rgb(37, 158, 23);
+            font-size: 18px;
+            padding: 30px;
+            margin: 30px;
+            height: fit-content;
+            width: fit-content;
+
+        }
+
+        h1 {
+            color: firebrick;
+        }
+
+        /* margin, padding, height width,  */
+    </style>
+</head>
+
+<body>
+    <header>CSS</header>
+    <h1 class="head" id="head1"><b><i>CSS Introduction</i></b></h1>
+    <a href="page.html">Go to next page</a>
+    <hr>
+    <a href="#lastElement">Go bottom</a>
+    <p><i>CSS (Cascading Style Sheets)</i> is a language designed to simplify the process of making web pages
+        presentable.</p>
+    <ul>
+        <li> It allows you to apply styles to HTML documents by prescribing colors, fonts, spacing, and positioning.
+        </li>
+        <li>CSS separates content from styling and enables reuse across pages.</li>
+        <li>HTML uses tags, and CSS uses rule sets.</li>
+        <li>CSS styles are applied to the HTML element using selectors.</li>
+    </ul>
+    <img src="demo page file/image/css1.jpg" alt="image about css">
+    <article>
+        <h2><u>Understanding Cascading</u></h2>
+        <p><strong>Cascading in CSS defines how the browser resolves conflicts between multiple CSS rules using
+                importance, specificity, and source order.</strong></p>
+        <ol type="1">
+            <li>CSS follows a hierarchy-Inline, Internal, External styles.</li>
+            <li>Specificity decides which selector has more weight.</li>
+            <li>Later rules override earlier ones if they have equal priority.</li>
+        </ol>
+        <fieldset>
+            <legend>Key Features of CSS</legend>
+            <ul type="circle">
+                <li>Cascading: Styles can come from multiple sources, and the browser decides which one wins based on
+                    priority.</li>
+                <li>Selectors: Powerful patterns to target specific elements (by tag, class, id, etc.).</li>
+                <li>Responsive Design: CSS makes websites look good on mobiles, tablets, and desktops.</li>
+                <li>Reusability: One stylesheet can control hundreds of pages.</li>
+            </ul>
+        </fieldset>
+    </article>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/92VvMusAV8c?si=YhE_zVTpSPtG3fRn"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h3 id="head3">Advantages of CSS</h3>
+    <p>Here are some advantages of css:</p>
+    <ol type="a">
+        <li>Makes web design and maintenance easier.</li>
+        <li>Improves website performance and user experience.</li>
+        <li>Supports responsive and adaptive designs for all devices.</li>
+    </ol>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Properties</th>
+                <th>Descriptions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>@charset Rule</th>
+                <th>Specifies the character encoding used in the style sheet.</th>
+            </tr>
+            <tr>
+                <th>@keyframes Rule</th>
+                <th>CSS @keyframes specify the animation rule.</th>
+            </tr>
+            <tr>
+                <th>@media Rule </th>
+                <th>Set of styles for different media/devices using the Media Queries.</th>
+            </tr>
+        </tbody>
+    </table>
+    <fieldset>
+        <legend>
+            <h4 id="lastElement">css related questions</h4>
+        </legend>
+        <form>
+            <label for="css">What does CSS stand for?</label><br>
+            <label for=""><input type="radio" name=css>computer style sheets</label><br>
+            <label for=""><input type="radio" name=css>creative style sheets</label><br>
+            <label for=""><input type="radio" name=css>colourfull style sheets</label><br>
+            <label for=""><input type="radio" name=css>cascading style sheets</label><br>
+            <label for="excss">Where in an HTML document is the correct place to refer to an external style
+                sheet?</label><br>
+            <label for=""><input type="radio" name=excss>at the end of document</label><br>
+            <label for=""><input type="radio" name=excss>in the head section</label><br>
+            <label for=""><input type="radio" name=css>in the body section</label>
+        </form>
+    </fieldset>
+    <div class="page1">
+        <div class="left">
+            <h1>internal css</h1>
+            <p>Internal or Embedded CSS is defined within the HTML document's style element. It applies styles to
+                specified HTML elements. </p>
+        </div>
+        <div class="right">
+            <h1>external css</h1>
+            <p>External CSS contains separate CSS files that contain only style properties with the help of tag
+                attributes (For example class, id, heading, ... etc). CSS property is written in a separate file with a
+                .css extension and should be linked to the HTML document using a link tag. </p>
+        </div>
+    </div>
+    <a href="#head1">Go top</a>
+    <footer>end of CSS</footer>
+</body>
+
+</html>

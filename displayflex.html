@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .page1 {
+            height: 100vh;
+            background-color: rosybrown;
+        }
+
+        header {
+            height: 10%;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        main {
+            height: 90%;
+            display: flex;
+        }
+
+        main .left .bottom {
+            display: flex;
+            justify-content: center;
+
+        }
+        .left {
+            background-color: aquamarine;
+            height: 100%;
+            width: 50%;
+        }
+
+        .left .top {
+            background-color: yellowgreen;
+            height: 50%;
+        }
+
+        .left .bottom img {
+            height: 100%;
+        }
+
+        .left .bottom {
+            background-color: purple;
+            height: 50%;
+        }
+
+        .right {
+            background-color: rebeccapurple;
+            height: 100%;
+            width: 50%;
+        }
+
+        .right .top {
+            background-color: rgb(25, 48, 114);
+            height: 50%;
+        }
+        .right .top img {
+            height: 100%;
+        }
+
+        .right .bottom {
+            background-color: rgb(220, 96, 30);
+            height: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page1">
+        <header>
+            <h1>LOGO</h1>
+            <nav>
+                <a href="webpage.html">CSS</a>
+                <a href="page.html">html tags</a>
+                <a href="workout.html">Example html </a>
+            </nav>
+        </header>
+        <main>
+            <div class="left">
+                <div class="top">
+                    <h1><u>Learn Web Development Basics with HTML CSS</u></h1><br>
+                    <p>Web development refers to the creating, building, and maintaining of websites. It includes
+                        aspects such as web design, web publishing, web programming, and database management. It is the
+                        creation of an application that works over the internet i.e. websites.</p>
+                </div>
+                <div class="bottom">
+                    <img src="demo page file/image/HTML5_logo.png">
+                </div>
+            </div>
+            <div class="right">
+                <div class="top">
+                   <img src="demo page file/image/css1.jpg"> 
+                </div>
+                <div class="bottom">
+                    <h1><u>Cascading style sheets</u></h1><br>
+                    <P>Cascading Style Sheets fondly referred to as CSS is a simply designed language intended to
+                        simplify the process of making web pages presentable. It is used to style our website.</P>
+                      <img src="demo page file/image/csS.png">   
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
