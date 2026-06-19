@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spering</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .page1 {
+            height: 100vh;
+            background-color: bisque;
+        }
+
+        header {
+            height: 5%;
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        main {
+            height: 90%;
+            display: flex;
+        }
+
+        .left {
+            background-color: rgb(11, 53, 49);
+            height: 100%;
+            width: 50%;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .left h1 {
+            color: white;
+            font-size: 42px;
+            margin-bottom: 12px;
+            text-align: start;
+
+        }
+
+        .left p {
+
+            color: white;
+            font-size: 14px;
+        }
+
+        form {
+            display: flex;
+            gap: 16px;
+        }
+
+        .btn-aboutus {
+            width: auto;
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            border: 3px solid red;
+
+        }
+
+        .btn-getaq {
+            width: auto;
+            padding: 10px 20px;
+            background-color: white;
+            color: black;
+            border: 3px solid white;
+
+        }
+
+        .right {
+            background-color: aqua;
+            height: 100%;
+            width: 50%;
+            flex-direction: column;
+        }
+
+        footer {
+            height: 5%;
+            width: 100%;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page1">
+        <header>
+            <img src="spering\images\logo.png" alt="image of logo">
+            <h1>Spering</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Work</a>
+                <a href="#">Category</a>
+            </nav>
+        </header>
+        <main>
+            <div class="left">
+                <h1>YOU CAN <br> HIRE FREELANCER <br> HERE</h1>
+                <p>It is a long established fact that a reader will be distracted by the<br>
+                    readable content of a page</p>
+                <form>
+                    <button type="submit" class="btn-aboutus">About Us</button>
+                    <button type="submit" class="btn-getaq">Get A Quote</button>
+                </form>
+
+            </div>
+            <div class="right">
+
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+
+</body>
+
+</html>
