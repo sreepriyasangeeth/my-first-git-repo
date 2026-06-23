@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>spering</title>
+    <link rel="stylesheet" href="page2.css">
     <style>
         * {
             margin: 0;
@@ -95,7 +96,7 @@
         }
 
         main {
-            height: 90%;
+            height: 100%;
             display: flex;
         }
 
@@ -103,12 +104,11 @@
             background-color: rgb(11, 53, 49);
             height: 100%;
             width: 50%;
-            font-family: sans-serif;
+            /* font-family: sans-serif; */
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: flex-start;
-            padding-left: 10%;
+            align-items:center; 
         }
 
         .left h1 {
@@ -149,14 +149,14 @@
             background-color: aqua;
             height: 100%;
             width: 50%;
-            display: flex;
+            display: flex; 
             justify-content: center;
             align-items: center;
-        }
+         }
 
         .right img {
             width: 80%;
-            height: auto;
+            height: 60%;
         }
 
         .number-box {
@@ -189,40 +189,36 @@
             font-family: sans-serif;
         }
 
-        footer {
-            height: 10%;
-            width: 100%;
-            background-color: white;
-        }
-
-        @media (max-width: 650px) {
-             .page1 {
+        @media (max-width: 800px) {
+            .page1 {
                 flex-direction: column;
-                height: 100vh;
+                height: auto;
             }
+
             header {
                 height: auto;
-                flex-direction: column; 
+                flex-direction: column;
                 padding: 20px 5px;
                 gap: 20px;
             }
 
             .header-left {
-                flex-direction: column; 
+                flex-direction: column;
                 width: 100%;
                 gap: 15px;
             }
-            nav {
-                flex-direction: column; 
+
+            /* nav {
+                flex-direction: column;
                 width: 100%;
                 gap: 12px;
                 text-align: center;
-            }
+            } */
 
             .header-right {
                 width: 100%;
-                justify-content: center; 
-                border-top: 1px solid rgba(255, 255, 255, 0.1); 
+                justify-content: center;
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
                 padding-top: 15px;
                 gap: 25px;
             }
@@ -232,15 +228,17 @@
                 flex-direction: column;
             }
 
-            .left, .right {
+            .left,
+            .right {
                 width: 100%;
                 height: auto;
                 padding: 60px 8px;
             }
 
             .right {
-                padding-bottom: 80px; 
+                padding-bottom: 80px;
             }
+
             .number-box {
                 bottom: 25px;
                 right: 8%;
@@ -250,30 +248,31 @@
 </head>
 
 <body>
+    <header>
+        <div class="header-left">
+            <div class="logo-area">
+                <img src="images/logo.png" alt="image of logo">
+                <h1>Spering</h1>
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Work</a>
+                <a href="#">Category</a>
+            </nav>
+        </div>
+        <div class="header-right">
+            <nav>
+                <a href="#">Login</a>
+                <a href="#" class="search-image-btn">
+                    <img src="images/search.png" alt="Search">
+                </a>
+                <a href="#" class="close-icon">X</a>
+            </nav>
+        </div>
+    </header>
     <div class="page1">
-        <header>
-            <div class="header-left">
-                <div class="logo-area">
-                    <img src="images/logo.png" alt="image of logo">
-                    <h1>Spering</h1>
-                </div>
-                <nav>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Work</a>
-                    <a href="#">Category</a>
-                </nav>
-            </div>
-            <div class="header-right">
-                <nav>
-                    <a href="#">Login</a>
-                    <a href="#" class="search-image-btn">
-                        <img src="images/search.png" alt="Search">
-                    </a>
-                    <a href="#" class="close-icon">X</a>
-                </nav>
-            </div>
-        </header>
+
         <main>
             <div class="left">
                 <h1>YOU CAN <br> HIRE FREELANCER <br> HERE</h1>
@@ -290,11 +289,27 @@
                 <div class="number-box">03</div>
             </div>
             <div class="arrows-container">
-                <div class="arrow-btn"><- </div>
+                <div class="arrow-btn"> <- </div>
                         <div class="arrow-btn">-></div>
                 </div>
         </main>
     </div>
+ 
+     <div class="page2">
+        <div class="left2">
+            <img src="images\experience-img.jpg" alt="about image">
+        </div>
+        <div class="right2">
+            <h1>BEST EXPERIENCED FREELANCER HERE</h1>
+            <P>It is a long established fact that a reader will be distracted by the readable<br>
+                content of a page when looking at its layout. The point of using Lorem Ipsum is<br>
+                that it has a more-or-less normal distribution of letters, as</P>
+            <form>
+                <button type="submit" class="btn-readm">Read More</button>
+                <button type="submit" class="btn-hire"> Hire </button>
+            </form>
+        </div>
+    </div>  
     <footer>
 
     </footer>

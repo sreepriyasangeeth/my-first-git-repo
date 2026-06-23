@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.page2 {
+    height: 100vh;
+    display: flex;
+}
+
+.left2 {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left2 img {
+    width: 80%;
+    height: 70%;
+}
+
+.right2 {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+form {
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+}
+
+.btn-readm {
+    padding: 12px 30px;
+    background-color: red;
+    color: white;
+    border: 3px solid red;
+    font-weight: bold;
+}
+
+.btn-hire {
+    padding: 12px 30px;
+    background-color: rgb(28, 26, 26);
+    color: white;
+    border: 3px solid rgb(28, 26, 26);
+    font-weight: bold;
+}
+
+.bottom {
+    height: 20%;
+    width: 100vw;
+    background-color: rgb(33, 179, 179);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer h2 {
+    color: white;
+    margin-top: 120px;
+}
+
+footer hr {
+    color: white;
+    width: 10%;
+}
+
+@media (max-width:800px) {
+    .page2 {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .left2,
+    .right2 {
+        width: 100%;
+        height: auto;
+        /* padding: 30px 20px; */
+    }
+
+    .left2 img {
+
+        width: 100%;
+        height: auto;
+    }
+    .right2{
+        justify-content: center;
+        align-items: center;
+    }
+}
