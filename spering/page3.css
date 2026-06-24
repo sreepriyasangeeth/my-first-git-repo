@@ -21,7 +21,6 @@
     font-size: 24px;
     margin-bottom: 8px;
 }
-
 .card hr {
     width: 12%;
 }
@@ -30,10 +29,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     gap: 50px;
-
-    width: 100%;
+    width: 80%;
 }
 
 
@@ -55,4 +52,16 @@
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 500;
+}
+@media (max-width:800px){
+    .icon{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .category-item{
+       display: inline-block;
+      width: 32%;
+      margin-bottom: 40px;
+    }
 }

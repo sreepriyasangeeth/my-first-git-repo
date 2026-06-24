@@ -1,0 +1,29 @@
+.page4 {
+    height: 100vh;
+}
+
+.about {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about img {
+    height: 50%;
+    width: 50%;
+}
+
+@media (max-width:1002px) {
+    .page4 {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .about img {
+        width: 100%;
+        height: auto;
+    }
+}
