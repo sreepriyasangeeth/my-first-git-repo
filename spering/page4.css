@@ -1,6 +1,7 @@
 .page4 {
     height: 100vh;
     width: 100vw;
+    background-color: white;
 }
 
 .about {
@@ -18,43 +19,78 @@
 }
 
 .freelancer {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-}
-
-.left3 {
-    height: 100%;
-    width: 50%;
-    text-align: center;
-}
-
-.right3 {
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.img-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+}
+
+.left3 {
+    width: 50%;
+
+}
+
+.right3 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right3 img {
+    width: 80%;
+    height: auto;
+}
+
+.stats-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.stat-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.stat-text {
+    display: flex;
+    flex-direction: column;
+}
+.stat-text h3 {
+    margin-bottom: 4px;
 }
 
 .f1-img {
     width: 50px;
     height: 50px;
     background-color: aqua;
-    color: white;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 20px;
 }
 
 .f1-img img {
+    width: 30px;
+    height: 30px;
+}
+
+.f2-img {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.792);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.f2-img img {
     width: 30px;
     height: 30px;
 }
@@ -72,5 +108,15 @@
     .about img {
         width: 100%;
         height: auto;
+    }
+    .freelancer{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .left3{
+        width: 100%;
+    }
+    .right3{
+        width: 100%;
     }
 }
