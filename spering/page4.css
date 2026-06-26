@@ -119,4 +119,10 @@
     .right3{
         width: 100%;
     }
+    .about p {
+        text-align: justify;  
+        text-align: center; 
+        width: 90%;
+
+    }
 }
