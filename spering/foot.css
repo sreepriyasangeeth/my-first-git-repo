@@ -116,9 +116,16 @@ footer {
         gap: 30px;
     }
     .footer-col{
-        width: fit-content;
+        width: 100%;
     }
     .footer-bottom{
-        width: 85%;
+        width: 100%;
+        flex-direction: column;
+    }
+    .footer-top{
+         width: 100%;
+    }
+    footer{
+        text-align: center;
     }
 }
